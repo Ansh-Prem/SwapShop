@@ -1,0 +1,350 @@
+body{
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #cbbcf4, #ffffff, #1e00ff);
+}
+
+
+
+.headline{
+	width: 100hw;
+	height: 50px;
+    font-size: 15px;
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	display: flex;
+    align-items: center;
+	border-radius: 20px;
+	/* box-shadow: 5px 20px 50px #000; */
+    margin: 10px 60px 20px 60px ;
+    padding: 0px 0px 0px 0px ;
+}
+#SwapShop
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#Home
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#Categories
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#WhiteSpace
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#UploadItems
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 255);
+    width: 150px;
+	height: 50px;
+    border-radius: 60px;
+    border: 5px bold ;
+    padding: 0px 0px 0px 0px;
+    border-color: transparent;
+    margin: 0px 0px 0px 50px ;
+}
+
+#Profile
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 255);
+    width: 50px;
+	height: 50px;
+    border-radius: 60px;
+    /* border: 5px bold ; */
+    border-color: transparent;
+    margin: 0px 0px 0px 20px ;
+    
+}
+
+.Product{
+	width: 100hw;
+	height: 100vh;
+    border: 2px solid #ccc;
+
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+    
+    
+	border-radius: 20px;
+    
+	/* box-shadow: 5px 20px 50px #000; */
+    margin: 10px 50px 20px 50px ;
+}
+
+.Product-parent{
+    display: flex;
+}
+
+.Product-image{
+    width: 600px;
+	height: 500px;
+	background: rgb(0, 183, 15);
+    position: relative;
+    justify-self: left;
+    margin: 10px 70px 10px 30px;
+    border-radius: 20px;
+    background-image: url('Jimson.png');
+    background-size: cover;
+}
+
+.Product-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Product-description{
+    width: 600px;
+	height: 440px;
+	background: rgb(255, 255, 255);
+    position: relative;
+    justify-self: left;
+    margin: 10px 10px 10px 30px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.Product-description-button{
+    
+    display: flex;
+    position: relative;
+    justify-self: left;
+    margin: 0px 0px 0px 30px;
+	background: rgb(255, 255, 255);
+    
+}
+.Product-description-buttonL{
+    width: 100px;
+	height: 50px;
+	background: rgb(255, 255, 255);
+    position: relative;
+    
+    border-radius: 40px ;
+    margin: 0px 0px 10px 10px ;
+}
+.Product-description-buttonR{
+    width: 100px;
+	height: 50px;
+	background: rgb(255, 255, 255);
+    position: relative;
+
+    border-radius: 50px ;
+    margin: 0px 0px 10px 10px ;
+}
+
+.Product-TitleBar{
+    width: 100hw;
+	height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px 10px 0px 0px;
+}
+
+.Product-title{
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-self: left; 
+    justify-content: space-between;
+    margin: 20px 20px 20px 30px ;   
+}
+
+.Product-Price{
+    font-size: 50px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans ;
+    position: relative;
+    display: flex;
+    
+    justify-self: right;
+
+    font-weight: 500;
+    
+    margin: 10px 60px 20px 20px ;   
+}
+
+
+.Product-Status-Stats{
+    width: 1400px ;
+    height: 200px;
+    
+    border: 2px solid ;
+    border-color: transparent;
+    justify-self: center;
+    flex-direction: row;
+    justify-items: left;
+    
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: #ffffff;
+    
+    margin: 10px 90px 20px 90px ;   
+    padding: 0px 0px 0px 10px ;
+}
+
+#Product-Status{
+    font-weight: 400 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 255, 17);
+    padding: 0px 0px 0px 20px;
+}
+.Product-Status-Container{
+    font-weight: 400 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 20px ;
+}
+#Product-Status-icon{
+    height: 30px;
+    width: 30px;
+    border-width: 2px ;
+    border-style: solid ;
+    border-color: black;
+    border-radius: 50px;
+    padding: 0px 0px 0px 0px ;
+    margin: 10px 0px 0px 20px ;
+}
+#Product-Status-availability{
+    font-weight: lighter;
+    padding: 0px 0px 0px 20px ;
+}
+
+#RecentProduct1{
+    
+    justify-self: left ;
+    margin: 50px 10px 60px 10px ;
+    flex-basis:50%;
+}
+
+/* General button hover effect */
+#SwapShop, #Home, #Categories, #UploadItems, #Profile {
+    transition: all 1s ease; /* Smooth transition for all changes */
+}
+
+/* Hover effect for SwapShop, Home, Categories */
+#SwapShop:hover, #Home:hover, #Categories:hover {
+    background-color: rgb(56, 0, 123);
+    color: blue;
+    font-weight: bolder; /* Make text bolder on hover */
+}
+
+/* Hover effect for UploadItems */
+#UploadItems:hover {
+    background-color: rgb(99, 91, 151);
+    color: blue;
+    font-weight: bolder;
+}
+
+/* Hover effect for Profile */
+#Profile:hover {
+    background-color: purple;
+    color: rgb(0, 0, 255);
+    font-weight: bolder;
+}
+
+.Details:hover {
+    background-color: rgb(32, 0, 128);
+    color: rgb(0, 0, 255);
+    font-weight: bolder;
+}
+
+#More-Details{
+    height: 75vh ;
+    width: 1400px ;
+    border-width: 2px ;
+    border-style: solid ;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+}
+#More-Details-Specifications{
+    display: flex;
+    justify-self: left;
+    padding: 0px 0px 0px 20px;
+}
+#Owner-Details{
+    height: 50vh ;
+    width: 1400px ;
+    border-width: 2px ;
+    border-style: solid ;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-items: left;
+    padding: 0px 0px 0px 0px;
+}
+#Owner-Name{
+    padding: 0px 0px 0px 20px;
+}
+#Owner-Contact{
+    padding: 0px 0px 0px 20px;
+}
+#Owner-Locations{
+    padding: 0px 0px 0px 20px;
+}
+#More-Similiar-Items{
+    height: 75vh ;
+    width: 1400px ;
+    border-width: 2px ;
+    border-style: solid ;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    margin: 40px 0px 0px 0px;
+    
+}
+#Similar-Items-Tiles
+{
+    display: flex;
+}
+.tile{
+	width: 360px;
+	height: 170px;
+    border: 2px solid #ccc;
+
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+	border-radius: 20px;
+    
+	/* box-shadow: 5px 20px 50px #000; */
+    margin: 10px 50px 20px 50px ;
+}

@@ -1,0 +1,195 @@
+body{
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #cbbcf4, #ffffff, #1e00ff);
+}
+
+
+
+.headline{
+	width: 100hw;
+	height: 50px;;
+    font-size: 15px;
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	display: flex;
+    align-items: center;
+	border-radius: 20px;
+	/* box-shadow: 5px 20px 50px #000; */
+    margin: 10px 60px 20px 60px ;
+    padding: 0px 0px 0px 0px ;
+}
+#SwapShop
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#Home
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#Categories
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#WhiteSpace
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#UploadItems
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 255);
+    width: 150px;
+	height: 50px;
+    border-radius: 60px;
+    border: 5px bold ;
+    padding: 0px 0px 0px 0px;
+    border-color: transparent;
+    margin: 0px 0px 0px 50px ;
+}
+
+#Profile
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 255);
+    width: 50px;
+	height: 50px;
+    border-radius: 60px;
+    /* border: 5px bold ; */
+    border-color: transparent;
+    margin: 0px 0px 0px 20px ;
+    
+}
+
+
+.Recent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tile{
+	width: 360px;
+	height: 170px;
+    border: 2px solid #ccc;
+
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+	border-radius: 20px;
+    
+	/* box-shadow: 5px 20px 50px #000; */
+    margin: 10px 50px 20px 50px ;
+}
+.parent {
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+.images1{
+    width: 160px;
+	height: 150px;
+	background: rgb(0, 183, 15);
+    position: relative;
+    display: flex;
+    justify-self: right;
+    margin: 10px 0px 10px 10px;
+    border-radius: 20px;
+    background-image: url('Sparsh.jpg');
+    background-size: cover;
+}
+.images2{
+    width: 160px;
+	height: 150px;
+	background: rgb(0, 183, 15);
+    position: relative;
+    display: flex;
+    justify-self: right;
+    margin: 10px 0px 10px 10px;
+    border-radius: 20px;
+    background-image: url('Jimson.png');
+    background-size: cover;
+}
+.Details{
+    width:120px;
+	height: 30px;
+	background: rgb(74, 26, 249);
+    border-radius: 50px;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+}
+#RecentProduct1{
+    
+    justify-self: left ;
+    margin: 50px 10px 60px 10px ;
+    flex-basis:50%;
+}
+
+/* General button hover effect */
+#SwapShop, #Home, #Categories, #UploadItems, #Profile {
+    transition: all 1s ease; /* Smooth transition for all changes */
+}
+
+/* Hover effect for SwapShop, Home, Categories */
+#SwapShop:hover, #Home:hover, #Categories:hover {
+    background-color: rgb(56, 0, 123);
+    color: blue;
+    font-weight: bolder; /* Make text bolder on hover */
+}
+
+/* Hover effect for UploadItems */
+#UploadItems:hover {
+    background-color: rgb(99, 91, 151);
+    color: blue;
+    font-weight: bolder;
+}
+
+/* Hover effect for Profile */
+#Profile:hover {
+    background-color: purple;
+    color: rgb(0, 0, 255);
+    font-weight: bolder;
+}
+
+.Details:hover {
+    background-color: rgb(32, 0, 128);
+    color: rgb(0, 0, 255);
+    font-weight: bolder;
+}

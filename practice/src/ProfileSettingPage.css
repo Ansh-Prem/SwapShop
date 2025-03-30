@@ -1,0 +1,387 @@
+body{
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #cbbcf4, #ffffff, #1e00ff);
+}
+
+
+
+.headline{
+	width: 100hw;
+	height: 50px;
+    font-size: 15px;
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	display: flex;
+    align-items: center;
+	border-radius: 20px;
+	/* box-shadow: 5px 20px 50px #000; */
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
+}
+#SwapShop
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#Home
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#Categories
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#WhiteSpace
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+	height: 50px;
+    position: relative ;
+    border: transparent;
+}
+#UploadItems
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 255);
+    width: 150px;
+	height: 50px;
+    border-radius: 60px;
+    border: 5px bold ;
+    padding: 0px 0px 0px 0px;
+    border-color: transparent;
+    margin: 0px 0px 0px 50px ;
+}
+
+#Profile-Button
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 255);
+    width: 50px;
+	height: 50px;
+    border-radius: 60px;
+    /* border: 5px bold ; */
+    border-color: transparent;
+    margin: 0px 0px 0px 20px ;
+    
+}
+#Edit-Profile-button{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+	height: 50px;
+    border-radius: 60px;
+    /* border: 5px bold ; */
+    border-color: #000000;
+    margin: 0px 0px 0px 20px ;
+}
+.Profile{
+    width: 1400px;
+	height: 300px;
+    
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	border-top: 1px #000000 solid ;
+    border-color: #000000;
+    display: flex;
+
+}
+.Edit_Profile-tag{
+    display: flex;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 0px 0px 0px 60px ;
+}
+#Profile-picture{ 
+    width: 200px;
+	height: 200px;
+    border-radius: 50%;
+    /* border: 5px bold ; */
+    border: 5px transparent solid;
+    margin: 50px 50px 50px 50px ;
+    background-color: #000000;
+    
+}
+#Profile-Name{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+#Profile-Edit-container{
+    width: 1000px;
+	height: 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* border: 5px bold ; */
+    border: 5px transparent solid;
+    margin: 50px 50px 30px 30px ;
+}
+#Personal_INFO{
+    width: 1400px;
+	height: 800px;
+    
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	border-top: 1px #000000 solid ;
+    border-color: #000000;
+    
+}
+#Personal-Info-tag-title{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 50px 50px 50px ;
+    display: flex;
+    justify-self: left;
+}
+#FullName-container,#Email-container,#Phone-container,#Location-container{
+    width: 1300px;
+    height: 130px;
+    margin: 0px 0px 0px 50px ;
+    border: 5px transparent solid ;
+    display: flex;
+    justify-self: left;
+}
+#FullName-container_icon,#Email-container_icon,#Phone-container_icon,#Location-container_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 0px ;
+    border: 1px transparent solid ;
+    display: flex;
+    justify-self: right;
+}
+#FullName-container-Title,#Email-container-Title,#Phone-container-Title,#Location-container-Title{
+    font-size: 35px;
+    font-weight: light;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1100px;
+    height: 50px;
+    margin: 0px 0px 0px 0px ;
+    border: 5px transparent solid ;
+    display: flex;
+    justify-self: left;
+    padding: 0px 0px 0px 0px;
+}
+#FullName-container-Value,#Email-container-Value,#Phone-container-Value,#Location-container-Value{
+    width: 1200px;
+    height: 50px;
+    margin: 0px 0px 0px 10px ;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px transparent solid ;
+    background-color: #bdbdbd;
+    border-radius: 50px;
+    display: flex;
+    justify-self: left;
+    padding: 0px 0px 0px 0px;
+}
+#FullName-container-Value_icon,#Email-container-Value_icon,#Phone-container-Value_icon,#Location-container-Value_icon{
+    width: 1230px;
+    height: 50px;
+    margin: 10px 0px 0px 0px ;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px transparent solid ;
+    background-color: #bdbdbd;
+    border-radius: 50px;
+    display: flex;
+    justify-self: left;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+#Account_Settings_container{
+    width: 1400px;
+	height: 500px;
+    
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	border-top: 1px #000000 solid ;
+    border-color: #000000;
+    
+}
+#Account_Settings_container_Title{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 0px 0px 50px ;
+    display: flex;
+    justify-self: left;
+}
+#Notifications-container-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: 5px #000000 solid;
+    margin: 20px 20px 20px 20px ;
+    flex-direction: row;
+}
+#Privacy_Settings-container-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: 5px #000000 solid;
+    margin: 20px 20px 20px 20px ;
+    flex-direction: row;
+}
+#Notifications-container{
+    width: 1300px;
+    height: 135px;
+    margin: 0px 0px 0px 50px ;
+    border: 5px transparent solid ;
+    display: flex;
+    justify-self: left;
+}
+
+
+#Privacy_Settings-container{
+    width: 1300px;
+    height: 135px;
+    margin: 0px 0px 0px 50px ;
+    border: 5px transparent solid ;
+    display: flex;
+    justify-self: left;
+}
+
+
+
+#Notifications-container-Title{
+    display: flex;
+    justify-self: left;
+}
+
+#Notifications-container-Value{
+    display: flex;
+    justify-self: left;
+    font-size: 20px;
+}
+
+#Privacy_Settings-container-Title{
+    display: flex;
+    justify-self: left;
+}
+
+#Privacy_Settings-container-Value{
+    display: flex;
+    justify-self: left;
+    font-size: 20px;
+}
+#Edit_Profile{
+    width: 150px;
+    height: 60px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    background-color: aqua;
+    margin: 50px 50px 50px 50px ;
+    border: 5px #000000 solid ;
+}
+#Log_Out{
+    width: 150px;
+    height: 60px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    background-color: aqua;
+    margin: 50px 50px 50px 50px ;
+    border: 5px #000000 solid ;
+}
+
+
+#Bio_container{
+    width: 1400px;
+	height: 250px;
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	border: 1px #000000 solid ;
+    border-color: #000000;
+    flex-direction: row;
+}
+
+#Bio-container_Title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+    display: flex;
+    margin: 0px 0px 0px 0px ;
+    justify-self: left;
+    padding: 0px 0px 0px 50px ;
+}
+#Bio-container-paragraph{
+    width: 1300px;
+	height: 180px;
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	border: 1px #000000 solid ;
+    border-color: #000000;
+    border-radius: 30px;
+}
+#Bio_container_Title_Parent{
+    display: flex;
+    justify-items: left;
+}
+
+
+
+
+
+/* General button hover effect */
+#SwapShop, #Home, #Categories, #UploadItems, #Profile {
+    transition: all 1s ease; /* Smooth transition for all changes */
+}
+
+/* Hover effect for SwapShop, Home, Categories */
+#SwapShop:hover, #Home:hover, #Categories:hover {
+    background-color: rgb(56, 0, 123);
+    color: blue;
+    font-weight: bolder; /* Make text bolder on hover */
+}
+
+/* Hover effect for UploadItems */
+#UploadItems:hover {
+    background-color: rgb(99, 91, 151);
+    color: blue;
+    font-weight: bolder;
+}
+
+/* Hover effect for Profile */
+#Profile-Button:hover {
+    background-color: purple;
+    color: rgb(0, 0, 255);
+    font-weight: bolder;
+}
