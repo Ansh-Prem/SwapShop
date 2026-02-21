@@ -1,4 +1,5 @@
 // server/seedCategories.ts
+// npx tsx scripts/seedCategories.ts   
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import Category from "./models/Category";

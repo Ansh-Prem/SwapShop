@@ -1,5 +1,9 @@
 # 🛍️ CampusMarket (SwapShop)
 
+> Developed with ❤️ by [Ansh Prem](https://github.com/anshprem) & [Piyush Ghegade](https://github.com/piyushghegade)
+
+---
+
 A full-stack marketplace built for IIT Patna students to buy, sell, and swap items within their campus community.  
 
 ## 🚀 Features
@@ -37,33 +41,6 @@ A full-stack marketplace built for IIT Patna students to buy, sell, and swap ite
 
 ---
 
-## ⚙️ Project Structure
-
-client/
-├── components/
-│ ├── layout/ # Header, footer, layout components
-│ ├── products/ # Product grid, cards, detail views
-│ ├── categories/ # Category sections and cards
-│ ├── profile/ # Profile info, user listings
-│ ├── messages/ # Chat and conversations
-│ └── ui/ # Common UI elements (buttons, inputs, etc.)
-├── hooks/ # Auth and toast hooks
-├── pages/ # Home, Auth, Listing, Profile, etc.
-├── App.tsx # Main router
-└── main.tsx
-
-Copy
-Edit
-server/
-├── controllers/ # Express controllers (auth, listing, category, message, etc.)
-├── middleware/ # Auth protection middleware
-├── models/ # Mongoose models
-├── routes/ # API route definitions
-└── index.ts # Main server entry
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -119,3 +96,160 @@ npm run dev
 
 git config user.name "Ansh Prem"
 git config user.email "your.email@example.com"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###HOW TO RUN SWAPSHOP 
+
+## 🚀 Setup Instructions for CampusMarket (Swap Shop)
+
+### 🧑‍💻 Prerequisites
+- Node.js (v18 or higher recommended)
+- npm or yarn
+- MongoDB installed locally (or use MongoDB Atlas)
+
+---
+
+### 💻 Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME
+```
+
+---
+
+### 📦 Install dependencies
+
+#### For backend
+```bash
+cd server
+npm install
+```
+
+#### For frontend
+```bash
+cd ../client
+npm install
+```
+
+---
+
+### ⚙️ Setup environment variables
+
+#### In `server` directory
+
+Create a `.env` file and add:
+
+```
+MONGO_URI=mongodb://localhost:27017/campusmarket
+JWT_SECRET=your_jwt_secret_here
+PORT=5000
+```
+
+---
+
+### 🗃️ Seed initial categories
+
+In `server/scripts`, run:
+
+```bash
+cd ../scripts
+node seedCategories.js
+```
+
+(Adjust `seedCategories.js` script as needed to customize categories.)
+
+---
+
+### ⚡ Start backend server
+
+```bash
+cd ../
+npm run dev
+```
+
+Backend runs at: `http://localhost:5000`
+
+---
+
+### 🌐 Start frontend
+
+```bash
+cd ../client
+npm run dev
+```
+
+Frontend runs at: `http://localhost:5173`
+
+---
+
+### ✅ Access the application
+
+Visit: [http://localhost:5173](http://localhost:5173)
+
+---
+
+### 💡 Features
+- User authentication (JWT-based)
+- Role-based actions (seller, buyer)
+- Category-wise and keyword search
+- Real-time chat with Socket.IO
+- Create, edit, and delete listings
+- Secure image uploads (base64)
+- User profile management
+- Admin dashboard for approving products (if enabled)
+
+---
+
+### 🏗️ Technologies Used
+- **Frontend:** React (Vite), Wouter, Tailwind CSS
+- **Backend:** Node.js, Express, Mongoose, JWT, Bcrypt
+- **Database:** MongoDB
+- **Real-time:** Socket.IO
+- **Others:** React Query, Zod validation, Lucide icons, Remix icons
+
+---
+
+### ⚙️ Folder Structure (high-level)
+
+```
+client/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── lib/
+│   └── main.tsx
+server/
+├── controllers/
+├── models/
+├── routes/
+├── middleware/
+├── scripts/
+├── utils/
+└── server.ts
+```
+
+---
+
+### 🚨 Important
+- Make sure MongoDB service is running before starting backend.
+- Update `.env` variables if using MongoDB Atlas or other connection strings.
+- Check `scripts/seedCategories.js` to ensure your categories are correct.
+
+---
+
+✅ **Done!** You can now fully run, modify, and extend the CampusMarket (Swap Shop) project on any machine.
